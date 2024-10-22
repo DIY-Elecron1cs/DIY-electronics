@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur:wght@400..900&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur:wght@400..900&family=Ubuntu+Condensed&family=Unbounded:wght@200..900&display=swap');
+/* .rubik-dirt-regular {
+font-family: "Rubik Dirt", system-ui;
+font-weight: 400;
+font-style: normal;
+} 
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unbounded-<uniquifier> {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.ubuntu-condensed-regular {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+
+/* СВЕТЛАЯ ТЕМА */
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+header {
+    background-color: #80bf53;
+}
+
+footer {
+    color: rgb(154, 158, 157);
+    background-color: rgb(54, 54, 54);
+}
+
+section {
+    color: rgb(0, 255, 0);
+    background-color: #c8e3b0;
+}
+
+article {
+    background-color: #c8e3b0;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h2 {
+    color: rgb(37, 39, 37);
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h3 {
+    background-color: #92c769;
+    color: rgb(37, 39, 37);
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h4 {
+    color: rgb(37, 39, 37);
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h5 {
+    color: rgb(37, 39, 37);
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h6 {
+    color: rgb(37, 39, 37);
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p {
+    color: rgb(7, 27, 13);
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color:rgb(0, 79, 143);
+}
+
+ul{
+    color: rgb(7, 27, 13);
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+aside {
+    color: rgb(0, 255, 0);
+    background-color: rgb(118, 182, 132);
+}
+
+#footerNav{
+    background-color: #2e2e2e;
+}
+
+
+
+
+
+
+
+
+
+/* ТЁМНАЯ ТЕМА */
+.dark body {
+    background-color: rgb(68, 68, 68);
+}
+
+.dark header {
+    background-color: rgb(81, 128, 35);
+}
+
+.dark footer {
+    color: rgb(154, 158, 157);
+    background-color: rgb(32, 32, 32);
+}
+
+.dark section {
+    background-color: #313b28;
+}
+
+.dark article {
+    background-color: #313b28;
+}
+
+.dark h1 {
+    color: #ffffff;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.dark h2 {
+    color: rgb(37, 39, 37);
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.dark h3 {
+    background-color: #21271b;
+    color: #9da397;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.dark h4 {
+    color: rgb(145, 161, 145);
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.dark h5 {
+    color: rgb(37, 39, 37);
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.dark h6 {
+    color: rgb(37, 39, 37);
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.dark p {
+    color: rgb(123, 146, 130);
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dark a {
+    color:rgb(1, 126, 228);
+}
+
+.dark em{
+    color:rgb(145, 161, 145)
+}
+
+.dark ul{
+    color: rgb(158, 167, 161);
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dark aside {
+    color: rgb(0, 70, 0);
+    background-color: rgb(118, 182, 132);
+}
+
+.dark #footerNav{
+    background-color: #2e2e2e;
+}
