@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>сайт DIY электроника</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body class="">
+    <header>
+        <h1>
+            <img src="images/logo.png" alt="logo" width="50">
+            DIY электроника
+        </h1>
+    </header>
+    <main>
+        <section>
+            <nav>
+                <ul>
+                    <li><button onclick="document.body.classList.toggle('dark')">сменить тему</button></li>
+                    <li><a class="a_color" href="/contacts.html">Контакты</a></li>
+                    <li><a class="a_color" href="/articles.html">Статьи</a></li>
+                    <li><a class="a_color" href="/rutube.html">Видео</a></li>
+                </ul>
+            </nav>
+
+        </section>
+        <section>
+            <h2>Статьи</h2>
+            <b><a href="articles.html#resistorsArticle">рассчёт сопротивлений</a></b>
+            <br>
+            <img src="images/resistors-circut1.jfif" alt="схема с сопротивлениями" width="200">
+            <br>
+            <b><a href="articles.html#PowerBank1">PowerBank</a></b>
+            <br>
+            <img src="images/PowerBank-main.jfif" alt="PowerBank-main" width="200">
+            <br>
+            <b><a href="articles.html#TeslaCoil1">Катушка Тесла</a></b>
+            <br>
+            <img src="images/Tesla1.jpg" alt="Tesla" width="200">
+        </section>
+        <section>
+            <h2>Видео</h2>
+            <b><a href="rutube.html#Meteo1">Метеостанция</a></b>
+            <br>
+            <iframe width="200" height="113" src="https://rutube.ru/play/embed/fb538ce9020a7fe4eae813e19eb1e83a/"
+            frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen
+            allowFullScreen></iframe>
+            <br>
+            <b><a href="rutube.html#PCB1">Изготовление печатной платы</a></b>
+            <br>
+            <iframe width="200" height="113" src="https://rutube.ru/play/embed/5020ac7a871344259dd54d87643a3872/"
+                frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen
+                allowFullScreen></iframe>
+            <br>
+            <b><a href="rutube.html#Tetris1">TETRIS на Arduino</a></b>
+            <br>
+            <iframe width="200" height="113" src="https://rutube.ru/play/embed/4efe5c54a10b43f9a9147f561d417f93/"
+                frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen
+                allowFullScreen></iframe>
+        </section>
+
+    </main>
+    <footer>
+        <p>дата создания сайта: 24.09.2024</p>
+        <nav id="footerNav">
+            <a href="https://t.me/DIYelectronics23" target="_blank">Telegram</a>
+            <a href="https://rutube.ru/channel/46650767" target="_blank">Rutube</a>
+            <a href="https://github.com/DIY-Elecron1cs" target="_blank">GitHub</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
+
+
+<!--<li><button onclick="document.body.classList.toggle('dark')">Сменить тему</button></li>
+
+<script>
+    let btn = document.querySelector("button")
+    btn.addEventListener("click", () => document.body.classList.toogle("dark"))
+</script>
