@@ -1,1 +1,5 @@
 <h1>DIY-electronics</h1>
+<p>это репозиторий моего сайта на GitHub Pages</p>
+<button>
+<a href="https://diy-elecron1cs.github.io/DIY-electronics//index.html">перейти на сайт</a>
+</button>
