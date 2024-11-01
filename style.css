@@ -32,24 +32,31 @@ font-style: normal;
 /* СВЕТЛАЯ ТЕМА */
 body {
     background-color: rgb(68, 68, 68);
+    background-image: url(https://i.pinimg.com/originals/1e/ef/c5/1eefc5567dc5c55f67ef6849b9235582.jpg);
 }
 
 header {
-    background-color: #80bf53;
+    background-color: #63dfab;
+    border-radius: 10px;
+    padding: 1px;
 }
 
 footer {
     color: rgb(154, 158, 157);
     background-color: rgb(54, 54, 54);
+    padding: 1px;
+    border-radius: 8px;
 }
 
 section {
     color: rgb(0, 255, 0);
-    background-color: #c8e3b0;
+    background-color: #439774;
+    border-radius: 10px;
 }
 
 article {
-    background-color: #c8e3b0;
+    background-color: #439774;
+    border-radius: 10px;
 }
 
 h1 {
@@ -67,11 +74,13 @@ h2 {
 }
 
 h3 {
-    background-color: #92c769;
+    background-color: #35795c;
     color: rgb(37, 39, 37);
     font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 1px;
+    border-radius: 8px;
 }
 
 h4 {
@@ -120,9 +129,13 @@ aside {
 
 #footerNav{
     background-color: #2e2e2e;
+    border-radius: 8px;
 }
 
-
+button{
+    background: #8d8d8d;
+    border-radius: 8px;
+}
 
 
 
@@ -136,20 +149,26 @@ aside {
 }
 
 .dark header {
-    background-color: rgb(81, 128, 35);
+    background-color: #3f886a;
+    border-radius: 10px;
+    padding: 1px;
 }
 
 .dark footer {
     color: rgb(154, 158, 157);
     background-color: rgb(32, 32, 32);
+    padding: 1px;
+    border-radius: 8px;
 }
 
 .dark section {
-    background-color: #313b28;
+    background-color: #25523f;
+    border-radius: 10px;
 }
 
 .dark article {
-    background-color: #313b28;
+    background-color: #25523f;
+    border-radius: 10px;
 }
 
 .dark h1 {
@@ -167,11 +186,13 @@ aside {
 }
 
 .dark h3 {
-    background-color: #21271b;
+    background-color: #336e56;
     color: #9da397;
     font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 1px;
+    border-radius: 8px;
 }
 
 .dark h4 {
@@ -224,4 +245,5 @@ aside {
 
 .dark #footerNav{
     background-color: #2e2e2e;
+    border-radius: 8px;
 }
