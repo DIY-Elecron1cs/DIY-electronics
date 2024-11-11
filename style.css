@@ -38,7 +38,6 @@ body {
 header {
     background-color: #63dfab;
     border-radius: 10px;
-    padding: 1px;
 }
 
 footer {
@@ -70,6 +69,7 @@ h2 {
     font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    position: fixed;
 }
 
 h3 {
@@ -150,7 +150,6 @@ button{
 .dark header {
     background-color: #3f886a;
     border-radius: 10px;
-    padding: 1px;
 }
 
 .dark footer {
@@ -181,6 +180,7 @@ button{
     font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    position: fixed;
 }
 
 .dark h3 {
