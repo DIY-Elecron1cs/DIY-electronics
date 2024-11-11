@@ -53,6 +53,10 @@ img::selection{
 a::selection{
     background-color: #a8ad57;
 }
+b::selection{
+    background-color: #a8ad57;
+}
+
 
 
 /* СВЕТЛАЯ ТЕМА */
@@ -111,7 +115,7 @@ h3 {
     padding: 1px;
     border-radius: 8px;
     position: sticky;
-    top: 52px;
+    top: 100px;
     padding-inline: 10px;
 }
 
