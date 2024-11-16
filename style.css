@@ -100,10 +100,16 @@ h1 {
 }
 
 h2 {
+    background-color: #35795c;
     color: rgb(37, 39, 37);
     font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 1px;
+    border-radius: 8px;
+    position: sticky;
+    top: 52px;
+    padding-inline: 10px;
 }
 
 h3 {
@@ -120,24 +126,42 @@ h3 {
 }
 
 h4 {
+    background-color: #35795c;
     color: rgb(37, 39, 37);
     font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 1px;
+    border-radius: 8px;
+    position: sticky;
+    top: 52px;
+    padding-inline: 10px;
 }
 
 h5 {
+    background-color: #35795c;
     color: rgb(37, 39, 37);
     font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 1px;
+    border-radius: 8px;
+    position: sticky;
+    top: 52px;
+    padding-inline: 10px;
 }
 
 h6 {
+    background-color: #35795c;
     color: rgb(37, 39, 37);
     font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 1px;
+    border-radius: 8px;
+    position: sticky;
+    top: 52px;
+    padding-inline: 10px;
 }
 
 p {
