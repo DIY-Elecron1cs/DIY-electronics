@@ -53,10 +53,6 @@ img::selection{
 a::selection{
     background-color: #a8ad57;
 }
-b::selection{
-    background-color: #a8ad57;
-}
-
 
 
 /* СВЕТЛАЯ ТЕМА */
@@ -108,7 +104,7 @@ h2 {
     padding: 1px;
     border-radius: 8px;
     position: sticky;
-    top: 52px;
+    top: 75px;
     padding-inline: 10px;
 }
 
@@ -133,8 +129,6 @@ h4 {
     font-style: normal;
     padding: 1px;
     border-radius: 8px;
-    position: sticky;
-    top: 52px;
     padding-inline: 10px;
 }
 
@@ -146,8 +140,6 @@ h5 {
     font-style: normal;
     padding: 1px;
     border-radius: 8px;
-    position: sticky;
-    top: 52px;
     padding-inline: 10px;
 }
 
@@ -159,8 +151,6 @@ h6 {
     font-style: normal;
     padding: 1px;
     border-radius: 8px;
-    position: sticky;
-    top: 52px;
     padding-inline: 10px;
 }
 
@@ -215,6 +205,11 @@ iframe{
     padding: 3px;
     border-radius: 10px;
 }
+
+
+
+
+
 
 
 /* ТЁМНАЯ ТЕМА */
